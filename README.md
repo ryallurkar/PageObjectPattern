@@ -1,8 +1,8 @@
 # WebAutomation
 
 ### Usage
-        $ git clone https://github.com/ryallurkar/WebAutomation.git
-        $ cd WebAutomation
+        $ git clone https://github.com/ryallurkar/PageObjectPattern.git
+        $ cd PageObjectPattern
         $ mvn clean test
 
 ### Reporting
@@ -12,3 +12,5 @@
 
 
         $ allure serve allure-results
+
+![EcommerceTests](https://github.com/ryallurkar/PageObjectPattern/blob/master/src/test/resources/sample-report.png)
