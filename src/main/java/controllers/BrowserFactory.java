@@ -95,9 +95,7 @@ public class BrowserFactory extends InitMethod
 		driver.get(WebsiteURL);
 		if( !Browser.toLowerCase().contains("ghost") || !Browser.toLowerCase().contains("phantom"))
 		{
-			driver.manage().window().setSize(new Dimension(320,800));
-			driver.findElement(By.cssSelector("*[data-cy-id=\"closeCookieBanner\"]")).click();
-//			driver.manage().window().maximize();
+			driver.manage().window().maximize();
 		}
 		return driver;		
 	}
